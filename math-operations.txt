@@ -1,0 +1,153 @@
+print("           [WELCOME]     ")
+print("  ")
+
+
+print("please choose your option")
+print("[1] :addition") 
+print("[2] :subtration ")
+print("[3] :multiplication ")
+print("[4] :division ")
+print("  ")
+option = int(input(" option  :"))
+
+print("[enter num in same line with space] ")
+print('')
+num1,num2 = input("ENTER TWO NUMBERS  :").split()
+
+
+if       option == 1:
+	      sum=int(num1)+int(num2)
+	      print("  ")
+	      print("your answer is " +str(sum))
+	      
+elif  option == 2:
+	      sum = int(num1)-int(num2)	      
+	      print("  ")
+	      print("your answer is " +str(sum))
+	      
+elif option == 3:
+	      sum = int(num1)*int(num2)
+	      print("  ")
+	      print("your answer is " +str(sum))
+	      
+elif  option == 4:
+	      sum = int(num1)/int(num2)
+	      print("  ")
+	      print("your answer is  " +str(sum))
+	      print("  ")
+else:
+	    print("  ")
+	    print("*please choose another  option*")
+print("  ")	    	      	      	      	      	      	      	      
+
+#RESTART OPTION
+
+restartoption = input("do you want to continue ?(y/n) :")
+yes = "y" or "Y"
+no = "n" or "N"
+
+
+
+if    restartoption == no:
+	  print(" ")
+	 
+	  
+	  
+elif  restartoption == yes:
+  print("please choose your option")
+  print("[1] :addition") 
+  print("[2] :subtration ")
+  print("[3] :multiplication ")
+  print("[4] :division ")
+  print("  ") 	  
+  option = int(input(" option  :"))
+  number1 = int(input("ENTER TWO NUMBERS  :"))
+  number2 = int(input("                   :"))
+  
+
+  if  option == 1:
+	      sum=int(number1)+int(number2)
+	      print("  ")
+	      print("your answer is " +str(sum))
+	      
+  elif  option == 2:
+	      sum = int(number1)-int(number2)	      
+	      print("  ")
+	      print("your answer is " +str(sum))
+	      
+  elif option == 3:
+	      sum = int(number1)*int(number2)
+	      print("  ")
+	      print("your answer is " +str(sum))
+	      
+  elif  option == 4:
+	      sum = int(number1)/int(number2)
+	      print("  ")
+	      print("your answer is  " +str(sum))
+	      print("  ")
+  else:
+	     print("please choose another option  ")
+         	    	      	      	      	      	      	      	      
+  	      	    	      	      	      	      	      	      	      
+else:
+	    print("  [ sorry wrong opton !! ]") 	               
+	     	       
+
+
+ 	   	      	      	      	      	      	      	      
+#2nd restartoption
+restartoption = input("do you want to continue ?(y/n) :")
+yes = "y" or "Y"
+no = "N"  or "n"
+
+
+
+
+if    restartoption ==  no:
+	  print(" ")
+	  print("               [  BYE ]")
+	  
+	  
+elif  restartoption == yes:
+  print("please choose your option")
+  print("[1] :addition") 
+  print("[2] :subtration ")
+  print("[3] :multiplication ")
+  print("[4] :division ")
+  print("  ") 	
+  option = int(input(" option  :"))  
+  number1 = int(input("ENTER TWO NUMBERS  :"))
+  number2 = int(input("                   :"))
+  
+
+  if  option == 1:
+	      sum=int(number1)+int(number2)
+	      print("  ")
+	      print("your answer is " +str(sum))
+	      
+  elif  option == 2:
+	      sum = int(number1)-int(number2)	      
+	      print("  ")
+	      print("your answer is " +str(sum))
+	      
+  elif option == 3:
+	      sum = int(number1)*int(number2)
+	      print("  ")
+	      print("your answer is " +str(sum))
+	      
+  elif  option == 4:
+	      sum = int(number1)/int(number2)
+	      print("  ")
+	      print("your answer is  " +str(sum))
+	      print("  ")
+  else:
+	     print("please choose another option  ")
+         	    	      	      	      	      	      	      	      
+  	      	    	      	      	      	      	      	      	      
+else:
+	    print("  [ sorry wrong opton !! ]") 	               
+	     	       
+
+print(" ")
+print("             [  THANKS  ] ")
+ 	   	      	      	      	      	      	      	      	    	      	      	      	      	      	      	      	    	      	      
